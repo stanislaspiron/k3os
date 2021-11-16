@@ -1,0 +1,10 @@
+hostname: k3os.demo.local
+k3os:
+  password: $1$HNFtNw/J$s44lXqWPGx47G/.pauptG/                                                                        
+  dns_nameservers: 
+  - 192.168.1.249
+  ntp_servers:
+  - 0.fr.pool.ntp.org
+  - 1.fr.pool.ntp.org
+  k3s_args:
+  - server
